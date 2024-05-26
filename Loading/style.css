@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Erbar-Initialen-Regular";
+  src: url("Erbar-Initialen-Regular.ttf.woff") format("woff"),
+    url("Erbar-Initialen-Regular.ttf.svg#Erbar-Initialen-Regular") format("svg"),
+    url("Erbar-Initialen-Regular.ttf.eot"),
+    url("Erbar-Initialen-Regular.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* h1 span:nth-child(1) {
+  font-family: "Erbar-Initialen-Regular";
+} */
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: #111;
+}
+
+h1 {
+  font-family: "Bebas Neue", sans-serif;
+  color: #fff;
+  font-size: 0;
+  display: flex;
+}
+h1 span {
+  font-size: 10rem;
+  display: block;
+  width: 5rem;
+  text-align: center;
+}
